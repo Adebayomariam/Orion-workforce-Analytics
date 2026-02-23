@@ -50,9 +50,8 @@ This section presents the workforce insights derived from the SQL queries.
 - This helps HR understand staffing levels and plan recruitment or restructuring where necessary.
 
 ### Salary Comparison by Department
-- The average salary per department was calculated using AVG.
-- Findings show that:
-- The Executive department has the highest average salary, indicating senior-level roles.
+Findings show that:
+- The average salary per department was calculated using AVG. The Executive department has the highest average salary, indicating senior-level roles.
 - The Shipping department has the lowest average salary, suggesting operational or entry-level positions.
 - This highlights salary inequality across departments and supports compensation benchmarking.
 
