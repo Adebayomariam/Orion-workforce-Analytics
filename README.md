@@ -13,6 +13,14 @@ Orion Data Systems required a structured, data-driven understanding of its workf
 
 The stakeholders’ objective was to move from raw employee records to meaningful insights that answer key workforce questions.
 
+### Key Questions Addressed
+- How are employees distributed across departments?
+- Which departments have the highest and lowest average salaries?
+- What is the salary structure of the organization?
+- Which countries have the highest workforce cost?
+- Which employees earn above the company average?
+- Which job roles are high-paying or currently unfilled?
+
 ## The Process (Methodology)
 ### Tools Used
 MySQL, SQL (JOIN, GROUP BY, CASE, CTE, Subqueries, Aggregate Functions)
@@ -30,6 +38,7 @@ The dataset consists of four relational tables:
 - Created a stored procedure to access all tables efficiently
 - Established relationships using department_id, job_id, and country_id
 
+![MySQL Preview](MySQL-joins.png)
 
 
 
@@ -40,10 +49,3 @@ The dataset consists of four relational tables:
 
 
 
-### Key Questions Addressed
-- How are employees distributed across departments?
-- Which departments have the highest and lowest average salaries?
-- What is the salary structure of the organization?
-- Which countries have the highest workforce cost?
-- Which employees earn above the company average?
-- Which job roles are high-paying or currently unfilled?
