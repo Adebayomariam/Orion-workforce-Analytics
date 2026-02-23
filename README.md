@@ -10,7 +10,6 @@ Analyzing HR workforce data using MySQL to support staffing, compensation, and g
 
 ## The Business Problem
 Orion Data Systems required a structured, data-driven understanding of its workforce to support HR strategy and organizational planning.
-
 The stakeholders’ objective was to move from raw employee records to meaningful insights that answer key workforce questions.
 
 ### Key Questions Addressed
@@ -67,12 +66,9 @@ This provides insight into organizational seniority and promotion planning.
 - This supports global workforce planning and regional expansion strategies.
 
 ### High Earners Analysis
-
-Employees earning above the company-wide average salary were identified using a subquery.
-
-These employees represent top talent, likely occupying senior or specialized roles.
-
-This insight supports retention strategies and performance-based compensation planning.
+- Employees earning above the company-wide average salary were identified using a subquery.
+- These employees represent top talent, likely occupying senior or specialized roles.
+- This insight supports retention strategies and performance-based compensation planning.
 
 ### Job Role Value Analysis
 - CTE was used to calculate the average salary for each job title.
@@ -98,11 +94,4 @@ Based on the analysis, the following actions are recommended:
 - Training programs should be developed to prepare employees for high-value job roles.
 
 ## Links:
-[MySQL Query Preview]
-
-
-
-
-
-
-
+[MySQL Query Preview](https://github.com/Adebayomariam/Orion-workforce-Analytics/blob/main/Firstname_Lastname.sql.sql)
