@@ -17,6 +17,18 @@ The stakeholders’ objective was to move from raw employee records to meaningfu
 ### Tools Used
 MySQL, SQL (JOIN, GROUP BY, CASE, CTE, Subqueries, Aggregate Functions)
 
+### Data Sourcing & Overview
+The dataset consists of four relational tables:
+- office_employees – employee details, salary, department, job, and country
+- dept – department information
+- office_jobs – job titles and salary ranges
+- office_countries – country names and regions
+
+### Data Preparation
+- Activated the working schema using USE capstone
+- Previewed all tables using SELECT *
+- Created a stored procedure to access all tables efficiently
+- Established relationships using department_id, job_id, and country_id
 
 
 
